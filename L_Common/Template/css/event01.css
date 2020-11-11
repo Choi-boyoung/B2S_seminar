@@ -3,9 +3,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 * {font-family: 'Noto Sans cjk kr', 'Noto Sans', 'Noto Sans KR', 'Noto Sans JP', 'Nanum Gothic', 'Nanum Gothic Coding', sans-serif; box-sizing: border-box;}
-html, body {width: 100%; height: 100%; font-family: 'Noto Sans cjk kr', 'Noto Sans', 'Noto Sans KR', 'Noto Sans JP', 'Nanum Gothic', 'Nanum Gothic Coding', sans-serif; box-sizing: border-box; cursor: url('http://img.assesta.com/school/event/cursor-img01.png'), auto;}
-html:active, body:active, input:active, select:active, label:active, input:checked, a:active {cursor: url('http://img.assesta.com/school/event/cursor-img02.png'), auto;}
-a, a:hover {cursor: url('http://img.assesta.com/school/event/cursor-img01.png'), auto; color: #222;}
+html, body {width: 100%; height: 100%; font-family: 'Noto Sans cjk kr', 'Noto Sans', 'Noto Sans KR', 'Noto Sans JP', 'Nanum Gothic', 'Nanum Gothic Coding', sans-serif; box-sizing: border-box; cursor: url('./img/cursor-img01.png'), auto;}
+html:active, body:active, input:active, select:active, label:active, input:checked, a:active {cursor: url('./img/cursor-img02.png'), auto;}
+a, a:hover {cursor: url('./img/cursor-img01.png'), auto; color: #222;}
 
 
 /* scroll */
@@ -22,7 +22,7 @@ strong {font-weight: 600;}
 .point {color: #2914cc; font-weight: 600;}
 .underline {text-decoration: underline; color: #222;}
 
-input, select {cursor: url('http://img.assesta.com/school/event/cursor-img01.png'), pointer;}
+input, select {cursor: url('./img/cursor-img01.png'), pointer;}
 
 /* Desktop 1280px */
 .event-tit {width: 100%; padding: 10% 0; background: #f3f3f3;}
@@ -34,7 +34,7 @@ input, select {cursor: url('http://img.assesta.com/school/event/cursor-img01.png
 
 .event-con {max-width: 1280px; width: 100%; margin: 0 auto; padding: 80px;}
 
-/* ì½˜í…ì¸? */
+/* ì½˜í…ï¿½? */
 .event-desc > h3 {font-size: 24px; font-weight: 600; margin-bottom: 24px; line-height: 160%;}
 .event-desc > p {font-size: 16px; font-weight: 400; line-height: 160%; margin-bottom: 24px;}
 .event-desc > ul {margin-bottom: 8px;}
@@ -42,18 +42,18 @@ input, select {cursor: url('http://img.assesta.com/school/event/cursor-img01.png
 .event-desc > span {float: right; font-size: 14px; font-weight: 400; line-height: 180%;}
 .event-desc > span > strong.yellow {color: #ff9700;}
 
-/* ?„¸ë¯¸ë‚˜ ?„ ?ƒ */
+/* ?ï¿½ï¿½ë¯¸ë‚˜ ?ï¿½ï¿½?ï¿½ï¿½ */
 .seminar-desc {padding-top: 40px; clear: both;}
 .seminar-desc > h3 {font-size: 24px; font-weight: 600; margin-bottom: 24px;}
-.seminar-desc > .seminar-select-all {font-size: 16px; font-weight: 600; color: #2914cc; text-decoration: underline; float: right; height: 0; position: relative; top: -40px; cursor: url('http://img.assesta.com/school/event/cursor-img01.png'), pointer;}
-.seminar-desc > .seminar-select-all:active {cursor: url('http://img.assesta.com/school/event/cursor-img02.png'), pointer;}
+.seminar-desc > .seminar-select-all {font-size: 16px; font-weight: 600; color: #2914cc; text-decoration: underline; float: right; height: 0; position: relative; top: -40px; cursor: url('./img/cursor-img01.png'), pointer;}
+.seminar-desc > .seminar-select-all:active {cursor: url('./img/cursor-img02.png'), pointer;}
 
 .seminar-select-desc {margin-bottom: 24px; font-size: 14px; font-weight: 400;}
 
 .seminar-select {clear: both; margin-bottom: 16px;}
 .seminar-select:last-child {margin-bottom: 0;}
 .seminar-select-input {position: absolute; z-index: -1; whitd: 0; height: 0; opacity: 0;}
-.seminar-select-label {user-select: none; margin-bottom: 0; cursor: url('http://img.assesta.com/school/event/cursor-img01.png'), pointer; vertical-align: middle;}
+.seminar-select-label {user-select: none; margin-bottom: 0; cursor: url('./img/cursor-img01.png'), pointer; vertical-align: middle;}
 .seminar-select-label > svg {margin-right: 8px;}
 .seminar-select-label > svg > polyline {fill: none; stroke: #fff; stroke-width: 2px; stroke-miterlimit: 10; stroke-dashoffset: 0; stroke-dasharray: 30;}
 .seminar-select-input:checked ~ .seminar-select-label > svg > polyline {stroke: #fff; animation: dash 0.5s linear alternate 1;}
@@ -63,7 +63,7 @@ input, select {cursor: url('http://img.assesta.com/school/event/cursor-img01.png
 @keyframes on {from {r: 0; opacity: 0;} to{r: 11; opacity: 1;}}
 .seminar-select-label > span {position: relative; top: -7px; line-height: 160%;}
 
-/* ?‹ ì²?? ? •ë³? */
+/* ?ï¿½ï¿½ï¿½??ï¿½ï¿½ ?ï¿½ï¿½ï¿½? */
 .personal-desc {padding-top: 40px;}
 .personal-desc > h3 {font-size: 24px; font-weight: 600; margin-bottom: 24px;}
 
@@ -78,7 +78,7 @@ input, select {cursor: url('http://img.assesta.com/school/event/cursor-img01.png
 
 .agree-check {clear: both; margin-bottom: 24px;}
 .agree-check-input {position: absolute; z-index: -1; whitd: 0; height: 0; opacity: 0;}
-.agree-check-label {user-select: none; margin-bottom: 0; cursor: url('http://img.assesta.com/school/event/cursor-img01.png'), pointer; vertical-align: middle;}
+.agree-check-label {user-select: none; margin-bottom: 0; cursor: url('./img/cursor-img01.png'), pointer; vertical-align: middle;}
 .agree-check-label > svg {margin-right: 8px;}
 .agree-check-label > svg > polyline {fill: none; stroke: #fff; stroke-width: 2px; stroke-miterlimit: 10; stroke-dashoffset: 0; stroke-dasharray: 30;}
 .agree-check-input:checked ~  .agree-check-label > svg > polyline {stroke: #fff; animation: dash 0.5s linear alternate 1;}
@@ -112,10 +112,10 @@ input, select {cursor: url('http://img.assesta.com/school/event/cursor-img01.png
 	
 	.event-con {padding: 40px;}
 	
-	/* ?„¸ë¯¸ë‚˜ ?„ ?ƒ */
+	/* ?ï¿½ï¿½ë¯¸ë‚˜ ?ï¿½ï¿½?ï¿½ï¿½ */
 	.seminar-select {margin-bottom: 8px;}
 	
-	/* ?‹ ì²?? ? •ë³? */
+	/* ?ï¿½ï¿½ï¿½??ï¿½ï¿½ ?ï¿½ï¿½ï¿½? */
 	.personal-box {width: 100%;}
 	.agree-detail {position: relative; top: -7px;}
 }
